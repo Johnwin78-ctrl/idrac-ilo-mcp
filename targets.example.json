@@ -1,0 +1,6 @@
+{
+  "targets": {
+    "r750-dcs-01": { "host": "192.168.10.21", "username": "claude_ro", "password": "CHANGE_ME" },
+    "dl380-his-02": { "host": "https://192.168.10.35", "username": "claude_ro", "password": "CHANGE_ME", "verify_tls": false }
+  }
+}

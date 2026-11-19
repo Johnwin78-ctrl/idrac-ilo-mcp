@@ -1,0 +1,16 @@
+{
+  "name": "bmc-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for Dell iDRAC and HPE iLO via Redfish",
+  "type": "module",
+  "main": "bmc-mcp.mjs",
+  "bin": { "bmc-mcp": "bmc-mcp.mjs" },
+  "engines": { "node": ">=18.17" },
+  "scripts": { "check": "node bmc-mcp.mjs --check" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "undici": "^8.12.4",
+    "zod": "^4.6.7"
+  },
+  "license": "MIT"
+}
